@@ -1,0 +1,24 @@
+server:
+  port: 9000
+#spring:
+#  kafka:
+#    streams:
+#      bootstrap-servers: pkc-ymrq7.us-east-2.aws.confluent.cloud:9092
+#      application-id: my-kafka-streams-application-id
+#    properties:
+#      security:
+#        protocol: SASL_SSL
+#      sasl:
+#        mechanism: PLAIN
+#        jaas:
+#          config: org.apache.kafka.common.security.plain.PlainLoginModule required username='ZD5344ZNVGDJ6S5G' password='KZeXcOt1OSpZ42Zp2f5dTVn/HhyGOjUZFKtyyHk1kab7wygQy/fC9kdGPD0B4twc';
+#    consumer:
+#      bootstrap-servers: pkc-ymrq7.us-east-2.aws.confluent.cloud:9092
+#      group-id: metadata-inference-join
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#    producer:
+#      bootstrap-servers: pkc-ymrq7.us-east-2.aws.confluent.cloud:9092
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
