@@ -11,7 +11,7 @@ server:
 #      sasl:
 #        mechanism: PLAIN
 #        jaas:
-#          config: org.apache.kafka.common.security.plain.PlainLoginModule required username='ZD5344ZNVGDJ6S5G' password='KZeXcOt1OSpZ42Zp2f5dTVn/HhyGOjUZFKtyyHk1kab7wygQy/fC9kdGPD0B4twc';
+#          config: org.apache.kafka.common.security.plain.PlainLoginModule required username='????????' password='?????????????????????????????????????????????';
 #    consumer:
 #      bootstrap-servers: pkc-ymrq7.us-east-2.aws.confluent.cloud:9092
 #      group-id: metadata-inference-join
